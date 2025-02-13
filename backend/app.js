@@ -3,17 +3,12 @@ const ErrorHandler = require("./utils/ErrorHandler")
 const app=express()
 const cookieParser=require("cookie-parser")
 const bodyParser=require("body-parser")
-// const fileUpload=require("express-fileupload")
-
+const fileUpload=require("express-fileupload")
 app.use(express.json())
 app.use(cookieParser())
-app.use("/" ,express.static("uploads"))
 app.use(bodyParser.urlencoded({extended:true}))
-// app.use(fileUpload({useTempFiles:true}))
-
-
+app.use(fileUpload({useTempFiles:true}))
 //config
-
 if(process.env.NODE_ENV != "PRODUCTION")
 {
     require("dotenv").config(
@@ -23,9 +18,5 @@ if(process.env.NODE_ENV != "PRODUCTION")
     )
 }
 //it's for errorhandling
-//imports routes
-const user=require("./controller/user")
-
-app.use("/api/v2/user",user)
 app.use(ErrorHandler)
 module.exports=app
