@@ -135,3 +135,73 @@ Set up a Node.js backend server using Express.
 Configured the server to listen on a designated port.
 Integrated MongoDB for efficient data storage.
 Established a connection between the server and MongoDB to confirm successful integration.
+
+
+
+Milestone 5: Creating the Signup Page
+
+Overview
+
+In this milestone, we focused on building the Sign-Up Page for our e-commerce project. This page allows users to register by entering their details, ensuring a smooth onboarding experience. Additionally, we implemented form validation to verify user inputs before submitting them to the server.
+
+Features Implemented
+
+Frontend UI: Designed a clean and user-friendly Sign-Up form using HTML and CSS.
+
+Input Fields:
+
+Name
+
+Email
+
+Password
+
+Form Validation:
+
+Ensured the email format is valid.
+
+Enforced password security rules (e.g., minimum length).
+
+Displayed error messages for incorrect inputs.
+
+Routing Setup: Connected the frontend signup form with the backend API.
+
+Code Submission:
+
+Updated the repository with the latest frontend changes.
+
+Documented progress in the README file.
+
+Technologies Used
+
+HTML
+
+CSS
+
+JavaScript
+
+Git & GitHub
+
+How to Run the Signup Page
+
+Clone the repository:
+
+git clone https://github.com/yourusername/Ecommerce-Follow-Along.git
+
+Navigate to the project directory:
+
+cd Ecommerce-Follow-Along
+
+Open the signup.html file in your browser.
+
+Next Steps
+
+Connect the Sign-Up Page with the backend.
+
+Implement authentication and session management.
+
+Continue improving the UI/UX for a seamless user experience.
+
+Repository Link
+
+GitHub Repository
