@@ -3,12 +3,10 @@ const path = require("path");
 const fs = require("fs");
 const User = require("../model/user");
 const router = express.Router();
+const { upload } = require("../multer");
 const ErrorHandler = require("../utils/ErrorHandler");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const bcrypt = require("bcryptjs");
-
-const { upload } = require("../multer");
-
 require("dotenv").config();
 
 
@@ -29,6 +27,7 @@ router.post("/create-user", upload.single("file"), catchAsyncErrors(async (req, 
         }
         return next(new ErrorHandler("User already exists", 400));
     }
+
     let fileUrl = "";
     if (req.file) {
         fileUrl = path.join("uploads", req.file.filename);
@@ -44,8 +43,10 @@ router.post("/create-user", upload.single("file"), catchAsyncErrors(async (req, 
             url: fileUrl,
         },
     });
+    console.log(user)
     res.status(201).json({ success: true, user });
 }));
+
 router.post("/login", catchAsyncErrors(async (req, res, next) => {
     console.log("Logging in user...");
     const { email, password } = req.body;
@@ -67,4 +68,5 @@ router.post("/login", catchAsyncErrors(async (req, res, next) => {
         user,
     });
 }));
+
 module.exports = router;
