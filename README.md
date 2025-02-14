@@ -135,3 +135,77 @@ Set up a Node.js backend server using Express.
 Configured the server to listen on a designated port.
 Integrated MongoDB for efficient data storage.
 Established a connection between the server and MongoDB to confirm successful integration.
+
+
+
+
+
+Milestone 6: Secure User Signup Backend
+
+Overview
+
+Welcome to Milestone 6! 🎉 In this milestone, we are focusing on creating a backend endpoint for the Signup page. This includes securely storing user data and encrypting passwords before saving them to the database.
+
+Learning Goals 🎯
+
+By the end of this milestone, you will:
+
+Understand how to encrypt passwords before saving them.
+
+Learn how to store complete user data securely in the database.
+
+Why Encrypt Passwords?
+
+Encrypting passwords is crucial for maintaining security and protecting user information. Here’s why:
+
+Protect User Data: Keeps passwords safe even if the database is compromised.
+
+Privacy: Ensures that user passwords remain confidential.
+
+Compliance: Adheres to security regulations like GDPR and PCI-DSS.
+
+Prevents Password Theft: Makes it difficult for attackers to guess or retrieve passwords.
+
+Steps for Milestone 6 📝
+
+1. Encrypt the Password
+
+Use bcrypt to hash the user’s password during signup.
+
+Store the hashed password in the database instead of plain text.
+
+2. Store Complete User Data
+
+Save all user details (e.g., name, email, etc.) securely in the database.
+
+Ensure the password remains encrypted when stored.
+
+Technologies Used 🛠️
+
+Node.js
+
+Express.js
+
+MongoDB (Database)
+
+Mongoose (ODM for MongoDB)
+
+bcrypt (Password hashing library)
+
+Submission Guidelines 📥
+
+Push Your Code
+
+Commit and push your code to the same GitHub repository used for previous milestones.
+
+Public Repository
+
+Ensure that your GitHub repository is publicly accessible.
+
+Update README
+
+Add a Milestone 6 section summarizing your progress in the README file.
+
+Share the Link
+
+Submit your GitHub repository link in the assignment submission section.
