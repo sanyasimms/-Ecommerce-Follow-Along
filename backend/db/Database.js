@@ -6,13 +6,11 @@
 //       useUnifiedTopology: true,
 //     })
 //     .then((data) => {
-//       console.log(mongod connected with server: ${data.connection.host});
+//       console.log(`mongod connected with server: ${data.connection.host}`);
 //     });
 // };
 // module.exports = connectDatabase;  //module.exports will be accessible to other files that require() that module.
-
 const mongoose = require("mongoose");
-
 const connectDatabase = async () => {
   try {
     const { connection } = await mongoose.connect(process.env.DB_URL);
@@ -22,5 +20,4 @@ const connectDatabase = async () => {
     process.exit(1); // Exit the process on connection failure
   }
 };
-
 module.exports = connectDatabase;
