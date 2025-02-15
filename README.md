@@ -1,39 +1,4 @@
-# 🛒 Ecommerce Follow Along
 
-## 🚀 E-Commerce Project - Key Takeaways
-
-### 🎯 Project Goals
-✅ Build a full-fledged e-commerce app using the MERN stack.  
-✅ Gain hands-on experience in real-world full-stack development.  
-
----
-
-## 📚 Learning Outcomes
-📌 Understand the structure of a MERN stack project.  
-📌 Set up project repositories and foundational tools.  
-📌 Master core functionalities:
-- 🔑 User Authentication (Login/Register).  
-- 📦 Product & Order Management.  
-- 🗃️ Database Schema Design.  
-
----
-
-## 🛠️ Core Concepts
-- 🔹 **REST API Design** → Create endpoints for users, products & orders.  
-- 🔹 **MongoDB Schema** → Structure meaningful data models.  
-- 🔹 **Authentication** → Secure login & registration systems.  
-- 🔹 **Backend Development** → Use Node.js + Express for APIs.  
-
----
-
-## 🏆 Milestones Overview
-
-### 📌 Project Overview
-🚀 Introduction to MERN stack.  
-🔍 Live Demo of the final app.  
-📌 Set up GitHub repo + README 📜.  
-
----
 
 ## 🛠️ Development Environment Setup
 ✅ Install tools: **Node.js, npm, MongoDB, VS Code**.  
@@ -208,3 +173,4 @@ To complete this milestone, follow these submission steps:
 In the next milestone, we will introduce **more advanced features** to enhance your app! Keep up the great work, and feel free to reach out for help if needed.
 
 Good luck, Kalvians! ✨
+
