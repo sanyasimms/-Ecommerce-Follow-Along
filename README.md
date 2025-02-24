@@ -527,3 +527,51 @@ Rendered the products dynamically on the "My Products" page.
 
 
 
+📌 Milestone 13: Edit & Update Products in MongoDB
+Project Overview
+In this milestone, we implemented the functionality to edit and update uploaded products in our e-commerce platform. This includes:
+✅ Adding an Edit button for each product.
+✅ Auto-filling the form with existing product data.
+✅ Allowing users to modify and save changes.
+✅ Creating a backend API endpoint to update product details in MongoDB.
+
+🛠️ Technologies Used
+Frontend: React, Axios
+Backend: Node.js, Express.js, MongoDB
+Database: MongoDB Atlas
+🚀 Features Implemented
+Edit Button: Each product card now has an Edit option.
+Auto-Filled Form: Clicking edit will pre-fill the form with existing details.
+Update API Endpoint: Created a PUT request in the backend to modify product data.
+📂 Setup & Installation
+Clone the repository:
+sh
+Copy
+Edit
+git clone <repository_link>
+cd project-folder
+Install dependencies:
+sh
+Copy
+Edit
+npm install
+Start the backend:
+sh
+Copy
+Edit
+npm run server
+Start the frontend:
+sh
+Copy
+Edit
+npm start
+📝 API Endpoints
+Method	Endpoint	Description
+PUT	/api/products/:id	Updates an existing product
+📌 How It Works
+Click on the Edit button on any product card.
+The form auto-fills with existing data.
+Modify the details and click Save.
+The product updates in the database and reflects on the UI.
+
+
