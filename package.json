@@ -24,6 +24,8 @@
     "express-fileupload": "^1.5.1",
     "i": "^0.3.7",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.1",
     "nodemon": "^3.1.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
