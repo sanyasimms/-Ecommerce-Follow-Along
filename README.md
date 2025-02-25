@@ -575,3 +575,25 @@ Modify the details and click Save.
 The product updates in the database and reflects on the UI.
 
 
+Milestone 14 - Delete Product Functionality
+Overview
+In this milestone, we implemented the functionality to delete a product from the database. This involved creating a backend endpoint to handle the delete request and adding a delete button in the frontend.
+
+Backend Implementation
+Created a DELETE API endpoint to remove a product by its ID from MongoDB.
+Used Mongoose to find and delete the product.
+Handled errors to ensure smooth operation.
+Frontend Implementation
+Added a delete button to each product card.
+On clicking the button, a DELETE request is sent to the backend with the product ID.
+After a successful response, the product is removed from the UI.
+Key Takeaways
+Learned how to write a DELETE API using Express and MongoDB.
+Integrated frontend and backend for delete functionality.
+Improved understanding of CRUD operations in a full-stack app.
+Next Steps
+Implement a confirmation prompt before deleting a product.
+Improve UI with loading states and success messages.
+GitHub Repository: Ecommerce Follow-Along
+
+
