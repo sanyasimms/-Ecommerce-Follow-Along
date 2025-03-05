@@ -597,3 +597,96 @@ Improve UI with loading states and success messages.
 GitHub Repository: Ecommerce Follow-Along
 
 
+# Milestone 15 - Navbar Component
+
+## Overview
+In this milestone, we implemented a **Navbar** component for our application, ensuring smooth navigation between different pages. The Navbar is designed to be reusable and responsive across all screen sizes.
+
+## Learning Goals 🎯
+- Understand how to create a **Navbar** component.
+- Learn how to reuse the same component across multiple pages.
+- Implement responsive design for the Navbar.
+
+## Steps Implemented 📝
+1. **Created a new Nav component** with links to the following pages:
+   - Home
+   - My Products
+   - Add Product
+   - Cart
+2. **Made the Navbar responsive** for different screen sizes using CSS and media queries.
+3. **Integrated the Navbar** into all pages to enable smooth navigation.
+
+## Technologies Used 🛠️
+- React.js
+- React Router for navigation
+- CSS for styling and responsiveness
+
+## How to Run the Project 🚀
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd project-folder
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+##
+
+
+# Milestone 16 - Product Info Page
+
+## Overview
+In this milestone, we implemented a **Product Info Page** that displays detailed information about each product. The page allows users to choose a quantity and add the product to the cart.
+
+## Learning Goals 🎯
+- Understand how to create a **new page** to display product details.
+- Implement a quantity selector.
+- Add an **Add to Cart** button for seamless shopping experience.
+
+## Steps Implemented 📝
+1. **Created a new product info page** that displays product details such as:
+   - Product Name
+   - Description
+   - Price
+   - Image
+2. **Added a quantity selector** to allow users to choose the number of items they want to purchase.
+3. **Implemented an Add to Cart button** to add the selected product and quantity to the cart.
+
+## Technologies Used 🛠️
+- React.js
+- React Router for navigation
+- State management for handling quantity selection
+- CSS for styling the product info page
+
+## How to Run the Project 🚀
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd project-folder
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+This milestone enhances the shopping experience by allowing user
+
+
+
+
