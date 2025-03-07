@@ -685,8 +685,20 @@ In this milestone, we implemented a **Product Info Page** that displays detailed
    npm run dev
    ```
 
-This milestone enhances the shopping experience by allowing user
+---
+# Milestone 17 - Add to Cart Functionality
+---
+##Overview
+In this milestone, we implemented an API endpoint to add products to the cart and store them in the database.
 
+Features Implemented
+Updated the User Schema to include a cart field.
+Created a Cart Schema to store product details.
+Developed an API endpoint to add products to the cart.
+Steps Taken
+Defined the Mongoose Cart Schema.
+Modified the User Schema to store cart items.
+Created an API route to receive product details and store them in the database.
 
 
 
