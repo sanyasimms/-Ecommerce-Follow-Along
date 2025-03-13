@@ -713,3 +713,172 @@ Steps Taken
 Created an endpoint to receive requests from the cart page.
 Queried the database to fetch all cart items associated with the user.
 Returned the cart data in the response.
+
+
+E-Commerce Cart Functionality (Milestone 19)
+
+Overview:
+This milestone focuses on building the Cart Page UI and implementing backend endpoints to increase or decrease the quantity of products in the cart.
+
+Learning Goals:
+By completing this milestone, I have:
+
+Created a Cart Page to display products inside the cart.
+Added "+" (increase) and "-" (decrease) buttons for each product to update quantity.
+Built backend API endpoints to handle quantity changes dynamically.
+Features Implemented:
+
+Frontend:
+
+Designed a Cart Page UI displaying all cart items.
+Added "+" and "-" buttons to modify product quantity.
+Used API calls to dynamically update cart data.
+Backend:
+
+Created API endpoints to increase and decrease product quantity in the cart.
+Integrated these endpoints with the frontend for real-time updates.
+Handled edge cases (e.g., quantity not going below 1).
+Project Structure:
+
+ecommerce-cart
+│── backend
+│ ├── routes/cartRoutes.js - API endpoints for quantity update
+│ ├── controllers/cartController.js - Business logic for cart operations
+│ └── models/cartModel.js - MongoDB schema for cart
+│
+│── frontend
+│ ├── src/components/Cart.jsx - Cart Page UI
+│ ├── src/components/CartItem.jsx - Individual Cart Item Component
+│ ├── src/App.js - Main application entry point
+│ └── src/services/api.js - API calls for cart actions
+│
+└── README.md - This documentation
+
+API Endpoints:
+
+Increase Quantity
+Endpoint: PUT /api/cart/increase/:productId
+Increases the quantity of a product in the cart.
+Decrease Quantity
+Endpoint: PUT /api/cart/decrease/:productId
+Decreases the quantity of a product (minimum 1).
+Setup & Installation:
+
+Clone the repository:
+git clone https://github.com/<your_username>/ecommerce-cart.git
+cd ecommerce-cart
+
+Install dependencies:
+npm install
+
+Start the backend:
+cd backend
+npm run dev
+
+Start the frontend:
+cd frontend
+npm start
+
+Submission:
+
+Code pushed to GitHub repository.
+Updated README with milestone details.
+Submitted the repository link.
+GitHub Repository: https://github.com/<your_username>/ecommerce-cart
+
+Future Improvements:
+
+Implement discounts & offers on cart products.
+Add checkout & payment integration.
+Improve cart UI/UX with animations.
+Feedback & Learnings:
+
+Understanding state management for cart updates.
+Writing REST API endpoints to modify database records.
+Handling frontend-backend integration efficiently.
+Excited for the next milestone!
+
+
+E-Commerce Profile Page (Milestone 20)
+
+Overview:
+This milestone focuses on creating a Profile Page UI and implementing a backend endpoint to retrieve and display user data, including profile photo, name, email, and addresses.
+
+Learning Goals:
+By completing this milestone, I have:
+
+Created a backend API endpoint to send user data.
+Developed a Profile Page UI to display user details.
+Implemented sections for profile photo, name, email, and addresses.
+Added a button to add a new address if none exist.
+Features Implemented:
+
+Frontend:
+
+Designed a Profile Page UI with user details.
+Displayed profile photo, name, and email in one section.
+Displayed addresses in another section.
+Showed "No address found" if no address exists.
+Added an "Add Address" button to update addresses.
+Backend:
+
+Created an API endpoint to send user data via email.
+Integrated the backend API with the frontend.
+Project Structure:
+
+ecommerce-profile
+│── backend
+│ ├── routes/userRoutes.js - API endpoint for user data
+│ ├── controllers/userController.js - Business logic for user data retrieval
+│ ├── models/userModel.js - MongoDB schema for user
+│
+│── frontend
+│ ├── src/components/Profile.jsx - Profile Page UI
+│ ├── src/components/AddressList.jsx - Address display component
+│ ├── src/App.js - Main application entry point
+│ └── src/services/api.js - API calls for user data
+│
+└── README.md - This documentation
+
+API Endpoint:
+
+Get User Data
+Endpoint: GET /api/user/profile
+Retrieves user profile details including name, email, photo, and addresses.
+Setup & Installation:
+
+Clone the repository:
+git clone https://github.com/<your_username>/ecommerce-profile.git
+cd ecommerce-profile
+
+Install dependencies:
+npm install
+
+Start the backend:
+cd backend
+npm run dev
+
+Start the frontend:
+cd frontend
+npm start
+
+Submission:
+
+Code pushed to GitHub repository.
+Updated README with milestone details.
+Submitted the repository link.
+GitHub Repository: https://github.com/<your_username>/ecommerce-profile
+
+Future Improvements:
+
+Allow users to edit profile details.
+Implement profile photo upload.
+Improve UI design with animations and styling.
+Feedback & Learnings:
+
+Understanding how to fetch and display user data.
+Writing REST API endpoints for user profiles.
+Managing frontend-backend communication effectively.
+Excited for the next milestone! 🚀
+
+
