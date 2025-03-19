@@ -932,4 +932,58 @@ By completing this milestone, I have:
 
 ✨ **Milestone 21 Completed Successfully!** ✨
 
+# Livebooks - Full Stack Web Development (v3)
+
+## Milestone 22: Backend Endpoint for Storing Address in User Profile
+
+### Welcome to Milestone 22! 🌟
+
+In this milestone, we will focus on creating a backend endpoint that stores the address inside the user's profile in the database.
+
+---
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+- Create a backend endpoint that receives an address from the frontend address form.
+- Store the received address inside the user's profile in the database.
+- Add the address to the `address` array inside the user collection.
+
+---
+
+## Steps for Milestone 22 📝
+
+1. **Create a Backend Endpoint**
+   - Develop an API route to receive address data from the frontend.
+   - Use `POST /users/:userId/address` to accept address details.
+
+2. **Validate Input Data**
+   - Ensure all required fields (country, city, address1, address2, zip code, address type) are received correctly.
+
+3. **Store Address in User Profile**
+   - Fetch the user from the database using `userId`.
+   - Append the new address to the user's `address` array.
+   - Save the updated user profile back to the database.
+
+4. **Test the Endpoint**
+   - Use Postman or an API client to send test requests.
+   - Verify if the address is successfully stored in the database.
+
+---
+
+## Submission Guidelines 📥
+
+1. Push your code to your **GitHub repository**.
+2. Ensure your repository is **publicly accessible**.
+3. Update the **README.md** file to summarize your progress for Milestone 22.
+4. Share the repository link in the **assignment submission section**.
+
+---
+
+### Example Submission Format:
+```
+https://github.com/<your_username>/<repository_name>
+```
+
+Good luck, Kalvians! ✨
+
 
