@@ -882,3 +882,54 @@ Managing frontend-backend communication effectively.
 Excited for the next milestone! 🚀
 
 
+# Livebooks - Full Stack Web Development (v3)
+
+## Milestone 21: Using Your Component to View All of the List of Entities (v3)
+
+### 📌 Overview
+This milestone focuses on creating a frontend form for address input. The form allows users to enter their address details, including country, city, address lines, zip code, and address type.
+
+### 🎯 Learning Goals
+By completing this milestone, I have:
+- Created a frontend form to capture address details.
+- Implemented state management to store the address input.
+- Enabled navigation from the profile page to the address form when clicking "Add Address."
+
+### 🛠️ Steps Implemented
+1. **Created Address Form Component**
+   - Developed a form UI using React.
+   - Included input fields for:
+     - Country
+     - City
+     - Address Line 1
+     - Address Line 2
+     - Zip Code
+     - Address Type (Dropdown)
+
+2. **Managed State Using React State Hook**
+   - Utilized `useState` to handle form input values dynamically.
+
+3. **Navigation Integration**
+   - Configured routing to navigate from the profile page to the address form upon clicking the "Add Address" button.
+
+### 🚀 Technologies Used
+- React.js
+- React Router
+- TailwindCSS (for styling)
+- useState Hook (for state management)
+
+### 📂 Repository Details
+- **Repository Name**: `livebooks-milestone21`
+- **Branch**: `main`
+- **Public Access**: ✅ Yes
+- **Repository Link**: [GitHub Repository](#) *(Replace with actual repo link)*
+
+### 📥 Submission Guidelines
+- ✅ Pushed the code to GitHub.
+- ✅ Ensured the repository is publicly accessible.
+- ✅ Updated the README file with details about Milestone 21.
+- ✅ Submitted the repository link in the assignment submission section.
+
+✨ **Milestone 21 Completed Successfully!** ✨
+
+
