@@ -999,4 +999,60 @@ Provided an option to select one address for the order.
 Created an endpoint to fetch and send all saved addresses of the user.
 Ensured authentication and proper error handling.
 
+# Milestone 25 - Place Order Endpoint
+
+## Overview
+In this milestone, we created a backend endpoint to handle order placement. This endpoint receives product details, user information, and address details, then processes the order by storing the relevant information in MongoDB.
+
+## Learning Goals 🎯
+By completing this milestone, we achieved the following:
+- Created a backend endpoint to facilitate order placement.
+- Retrieved the user's `_id` using their email.
+- Processed multiple orders for different products with the same address.
+- Stored order details in the MongoDB `orders` collection.
+
+## Implementation Steps 🛠️
+1. **Receive Order Data**: The endpoint accepts an order request containing products, user email, and address details.
+2. **Retrieve User ID**: Using the email provided, the system fetches the `_id` of the user from the database.
+3. **Process Orders**: Each product is stored as a separate order while maintaining the same address details.
+4. **Store in MongoDB**: The processed orders are saved in the `orders` collection using the pre-defined order schema.
+
+## Technologies Used 🖥️
+- **Node.js** with **Express.js** for backend development
+- **MongoDB** for database management
+- **Mongoose** for schema handling
+
+## API Endpoint Details 🔗
+- **Endpoint:** `POST /api/orders`
+- **Request Body Example:**
+  ```json
+  {
+    "email": "user@example.com",
+    "address": "123 Main Street, City, Country",
+    "products": [
+      { "productId": "12345", "quantity": 2 },
+      { "productId": "67890", "quantity": 1 }
+    ]
+  }
+  ```
+- **Response Example:**
+  ```json
+  {
+    "message": "Order placed successfully",
+    "orders": [
+      { "orderId": "abc123", "status": "Confirmed" },
+      { "orderId": "def456", "status": "Confirmed" }
+    ]
+  }
+  ```
+
+## Submission Details 📥
+- Code pushed to GitHub repository ✅
+- README updated with milestone details ✅
+- Repository link submitted for evaluation ✅
+
+---
+
+### 🚀 Happy Coding, Kalvians! ✨
+
 
