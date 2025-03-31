@@ -1055,4 +1055,56 @@ By completing this milestone, we achieved the following:
 
 ### 🚀 Happy Coding, Kalvians! ✨
 
+# Milestone 26 - Get User Orders Endpoint
+
+## Overview
+In this milestone, we created a backend endpoint to retrieve all orders placed by a specific user. The endpoint receives the user's email, fetches their `_id`, and then retrieves all corresponding orders from MongoDB.
+
+## Learning Goals 🎯
+By completing this milestone, we achieved the following:
+- Created a backend endpoint to fetch all orders of a user.
+- Retrieved the user's `_id` using their email.
+- Fetched all orders associated with the user from the `orders` collection.
+- Sent the retrieved orders as a response.
+
+## Implementation Steps 🛠️
+1. **Receive User Email**: The endpoint accepts a request containing the user's email.
+2. **Retrieve User ID**: Using the email, the system fetches the `_id` of the user from the database.
+3. **Fetch Orders**: The system queries the `orders` collection to get all orders linked to the user's `_id`.
+4. **Send Response**: The retrieved orders are sent back to the client.
+
+## Technologies Used 🖥️
+- **Node.js** with **Express.js** for backend development
+- **MongoDB** for database management
+- **Mongoose** for schema handling
+
+## API Endpoint Details 🔗
+- **Endpoint:** `GET /api/orders`
+- **Request Body Example:**
+  ```json
+  {
+    "email": "user@example.com"
+  }
+  ```
+- **Response Example:**
+  ```json
+  {
+    "orders": [
+      { "orderId": "abc123", "status": "Confirmed", "items": [...] },
+      { "orderId": "def456", "status": "Shipped", "items": [...] }
+    ]
+  }
+  ```
+
+## Submission Details 📥
+- Code pushed to GitHub repository ✅
+- README updated with milestone details ✅
+- Repository link submitted for evaluation ✅
+
+---
+
+### 🚀 Happy Coding, Kalvians! ✨
+
+
+
 
