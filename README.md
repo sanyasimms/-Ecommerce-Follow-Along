@@ -1104,6 +1104,56 @@ By completing this milestone, we achieved the following:
 ---
 
 ### 🚀 Happy Coding, Kalvians! ✨
+📘 Livebooks – Milestone #27: My Orders Page
+🧩 Milestone Overview
+Milestone 27: Adding My Orders Page (Frontend)
+This milestone focuses on creating a frontend page that displays all orders placed by a user. We integrate it with our backend API using a GET request to fetch orders using the user's email.
+
+🎯 Learning Goals
+By completing this milestone, we have:
+
+Created a dedicated my-orders page in the frontend.
+
+Connected to the my-orders backend endpoint via a GET request.
+
+Passed the user's email to fetch relevant order data.
+
+Displayed the fetched orders in a structured layout.
+
+Added the My Orders page to the navbar for easier navigation.
+
+🛠️ Steps Completed
+Built a new my-orders route and component in the frontend.
+
+Implemented a GET request using fetch/axios to hit the /my-orders endpoint.
+
+Sent the user’s email as a query parameter to retrieve their orders.
+
+Rendered the list of orders in a user-friendly UI.
+
+Linked the My Orders page from the main navbar.
+
+📦 Tech Stack
+Frontend: React.js
+
+Backend: Node.js + Express.js
+
+Database: MongoDB
+
+API Testing Tool: Bruno
+
+📬 Submission Checklist
+ Code pushed to GitHub
+
+ Publicly accessible repo
+
+ README updated with milestone summary
+
+ Bruno used for API testing
+
+ Repository link submitted via assignment portal
+
+
 
 
 
